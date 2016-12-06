@@ -10,13 +10,13 @@
 * 3.Allows opening a detailed view for a user in a modal window on the current page - 4-5 hour.
 * 4.Add some basic CSS to make the table and other elements easy on the eyes - 1 hour.
 * 5.Make the page support browser refresh and bookmarkable. where it re-opens a user's detailed view in case it was opened before - 40 minutes.
-h2 Time spent on reading the information:
+##Time spent on reading the information:
 *1.30 minutes
 *2. - 
 *3.3-4 hour
 *4.1-2 hour
 *5.30 minutes
-h1 Instructions for running:
+#Instructions for running:
 *1.Install npm
 *2.Write the terminal
 ```
