@@ -15,16 +15,16 @@
 
 
 ##Time spent on reading the information:
-*1.30 minutes
-*2. - 
-*3.3-4 hour
-*4.1-2 hour
-*5.30 minutes
+* 1.30 minutes
+* 2. - 
+* 3.3-4 hour
+* 4.1-2 hour
+* 5.30 minutes
 
 
 #Instructions for running:
-*1.Install npm
-*2.Write the terminal
+* 1.Install npm
+* 2.Write the terminal
 
 
 ```
@@ -33,4 +33,4 @@ npm install webpack -g
 webpack
 
 ```
-*3.go to the folder : publick, open main.html
+* 3.go to the folder : publick, open main.html
