@@ -1,0 +1,22 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ContactsList.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "OliferchykSergej",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer-loader": "*",
+    "babel": "*",
+    "babel-loader": "5.*",
+    "css-loader": "*",
+    "json-loader": "^0.5.4",
+    "style-loader": "*",
+    "url-loader": "*",
+    "webpack": "^1.13.3"
+  }
+}
