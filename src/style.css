@@ -1,0 +1,139 @@
+.ContactsList{
+	width: 350px;
+}
+
+html,body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+		@keyframes newslidein {
+		  from {
+				opacity: 0;
+
+		  }
+
+		  to {
+				opacity:1;
+		  }
+		}
+
+@keyframes slidein {
+  from {
+		opacity: 0;
+
+  }
+
+  to {
+		opacity:1;
+  }
+}
+
+		.fix_info{
+			display: flex;
+			flex-wrap: nowrap;
+			justify-content: flex-start;
+		}
+
+		#contacts{
+			margin-left: 55px;
+			width: 360px;
+			animation: slidein 3s;
+		}
+
+		.fix_info :first-child{
+			width: 175px;
+		}
+
+		#cover-div {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      width: 100%;
+      height: 100%;
+      background-color: gray;
+      opacity: 0.3;
+    }
+
+		#prompt-form_address,#prompt-form_company {
+			display: inline-block;
+			padding: 5px 5px 5px 5px;
+			border: 1px solid black;
+			background: white no-repeat left 5px;
+			vertical-align: middle;
+		}
+
+		#prompt-form-container_address,#prompt-form-container_company{
+			position: fixed;
+			top: 0;
+			left: 0;
+			z-index: 3;
+			display: none;
+			width: 100%;
+			height: 100%;
+			text-align: center;
+		}
+
+		#prompt-form-container_address:before,#prompt-form-container_company:before {
+			display: inline-block;
+			height: 100%;
+			content: '';
+			vertical-align: middle;
+		}
+
+		#prompt-form_geo {
+			display: inline-block;
+			padding: 5px 5px 5px 5px;
+			border: 1px solid black;
+			background: white no-repeat left 5px;
+			vertical-align: middle;
+		}
+
+		#prompt-form-container_geo {
+			position: fixed;
+			top: 0;
+			left: 0;
+			z-index: 3;
+			display: none;
+			width: 100%;
+			height: 100%;
+			text-align: center;
+		}
+
+		#prompt-form-container_geo:before {
+			display: inline-block;
+			height: 100%;
+			content: '';
+			vertical-align: middle;
+		}
+
+		.slider-nav{
+			display: flex;
+			justify-content: space-around;
+		}
+
+		a{
+			cursor: pointer;
+		}
+
+		a:hover{
+			color:#0000ff;
+			text-decoration:underline;
+		}
+
+		#slider-previous,#slider-next {
+			cursor: pointer;
+		  color: #fff;
+		  text-decoration: none;
+		  user-select: none;
+		  background: rgb(212,75,56);
+		  padding: .7em 1.5em;
+		  outline: none; /* убирать контур в Mozilla */
+		}
+
+		#slider-previous:hover,#slider-next:hover { background: rgb(232,95,76); }
+
+		#slider-previous:active,#slider-next:active { background: rgb(152,15,0); }
